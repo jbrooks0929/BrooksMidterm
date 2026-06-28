@@ -1,0 +1,117 @@
+/* ===========================================
+   Game Explorer - Custom Styles
+=========================================== */
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 2px solid #0d6efd;
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #0d6efd, #212529);
+    padding: 80px 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+
+/* Search Form */
+.search-box {
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+/* Cards */
+.card {
+    background-color: #1f1f1f;
+    border: none;
+    border-radius: 12px;
+    transition: all .3s ease;
+    color: white;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 18px rgba(13,110,253,.45);
+}
+
+.card img {
+    height: 320px;
+    object-fit: cover;
+}
+
+/* Buttons */
+.btn-primary {
+    border-radius: 25px;
+}
+
+.btn-outline-light:hover {
+    color: black;
+}
+
+/* Platform Buttons */
+.platform-btn {
+    margin: 8px;
+}
+
+/* Detail Page */
+.game-cover {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.game-info {
+    background: #1f1f1f;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* Footer */
+footer {
+    margin-top: 80px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+/* Responsive */
+
+@media (max-width:768px){
+
+.hero h1{
+    font-size:2rem;
+}
+
+.card img{
+    height:250px;
+}
+
+}

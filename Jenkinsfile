@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'jbrooks0929/git-tutorial3'
+        IMAGE_NAME = 'jbrooks0929/BrooksMidterm'
     }
 
     stages {
